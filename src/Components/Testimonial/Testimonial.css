@@ -252,6 +252,7 @@
     width: 90%;
     max-width: 450px;
     height: auto;
+
   }
 
   .testimonialdiv1p,
@@ -271,7 +272,7 @@
   .testimonialdiv1h2,
   .testimonialdiv1h22,
   .testimonialdiv1h222 {
-    margin-left: 10px;
+    mAargin-left: 10px;
   }
 }
 
@@ -298,3 +299,4 @@
     text-align: center;
   }
 }
+
