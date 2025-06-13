@@ -1,0 +1,171 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+}
+
+.heroh1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #1f2148;
+}
+
+.h1span {
+  color: #13aaa1;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.herop {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2c2f62;
+  margin-top: 10px;
+}
+
+.herobutton {
+  width: 180px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #1f2148;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #f6f6f6;
+  margin-top: 20px;
+  border: none;
+}
+
+.heroimg1 {
+  width: 100px;
+  height: 60px;
+  z-index: 50px;
+  margin-top: 550px;
+}
+
+.heroimg2 {
+  width: 532px;
+  height: 670px;
+  margin-top: 100px;
+}
+
+.alltext {
+  display: block;
+  margin-top: 200px;
+}
+
+.allimg {
+  display: flex;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroh1 {
+    font-size: 48px;
+  }
+
+  .h1span {
+    font-size: 48px;
+  }
+
+  .herop {
+    font-size: 18px;
+  }
+
+  .herobutton {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .heroimg2 {
+    width: 400px;
+    height: auto;
+  }
+
+  .heroimg1 {
+    width: 80px;
+    height: auto;
+    margin-top: 250px;
+  }
+
+  .all {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .alltext {
+    text-align: center;
+  }
+
+  .allimg {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroh1 {
+    font-size: 36px;
+  }
+
+  .h1span {
+    font-size: 36px;
+  }
+
+  .herop {
+    font-size: 13px;
+  }
+
+  .herobutton {
+    width: 140px;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .heroimg2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .heroimg1 {
+    display: none;
+  }
+
+  .all {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .alltext {
+    text-align: center;
+  }
+
+  .allimg {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .container.hero {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+

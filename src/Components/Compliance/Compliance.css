@@ -1,0 +1,121 @@
+.compliance {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.complianceh1 {
+  color: #1f2148;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.compliancep {
+  color: #2c2f62;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 10px;
+}
+
+.compliancepspan {
+  color: #13aaa1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.compliancemarkp {
+  color: #2c2f62;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  margin-top: 5px;
+}
+
+.complianceimgmark {
+  width: 12.068px;
+  height: 12.068px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.allcompliancetext {
+  display: block;
+  margin-top: 400px;
+}
+
+.complianceperson {
+  margin-top: 0px;
+  margin-left: 50px;
+  width: auto;
+  max-width: 100%;
+}
+
+.allcompliance {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .allcompliance {
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .allcompliancetext {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  .complianceh1 {
+    font-size: 36px;
+  }
+
+  .compliancep,
+  .compliancepspan,
+  .compliancemarkp {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .complianceperson {
+    margin: 40px 0 0;
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .complianceh1 {
+    font-size: 28px;
+  }
+
+  .compliancep,
+  .compliancepspan,
+  .compliancemarkp {
+    font-size: 14px;
+  }
+
+  .allcompliancetext {
+    margin-top: 80px;
+    padding: 0 16px;
+  }
+
+  .complianceperson {
+    width: 100%;
+    margin-left: 0;
+  }
+}

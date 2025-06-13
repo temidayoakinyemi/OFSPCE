@@ -1,0 +1,333 @@
+.launch {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.launch::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  right: -100px;
+  width: 600px;
+  height: 500px;
+  background: radial-gradient(circle at center, #f3d5f5 0%, transparent 50%);
+  z-index: 0;
+}
+
+.launchh1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.profile {
+  width: 56px;
+  height: 55px;
+}
+
+.profileh2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+
+.profileh3 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #13aaa1;
+}
+
+.profilep {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.profile1 {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.strategy {
+  width: 56px;
+  height: 55px;
+}
+
+.strategyh2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.strategyh3 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #13aaa1;
+  text-align: center;
+}
+
+.strategyp {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.strategy1 {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tranfer {
+  width: 56px;
+  height: 55px;
+}
+
+.transferh2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.transferh3 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #13aaa1;
+  text-align: center;
+}
+
+.transferp {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.transfer1 {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.all1 {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.personh1 {
+  color: #1f2148;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.personp {
+  color: #2c2f62;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 20px;
+}
+
+.personpspan {
+  color: #13aaa1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.imgmark {
+  width: 12.068px;
+  height: 12.068px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.markp1 {
+  color: #2c2f62;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  margin-top: 10px;
+}
+
+.markp {
+  color: #2c2f62;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+  margin-top: 5px;
+}
+
+.markall {
+  display: block;
+  margin-top: 350px;
+  margin-left: 50px;
+}
+
+.allpersonmark {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .launchh1 {
+    font-size: 40px;
+    margin-top: 80px;
+  }
+
+  .all1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .markall {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .allpersonmark {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .personimg {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .personh1 {
+    font-size: 36px;
+  }
+
+  .personp,
+  .markp,
+  .markp1,
+  .personpspan {
+    font-size: 16px;
+  }
+
+  .imgmark {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .launch::after {
+    width: 300px;
+    height: 250px;
+    bottom: -40px;
+    right: -50px;
+    background: radial-gradient(circle at center, #f3d5f5 0%, transparent 50%);
+    z-index: 0;
+  }
+
+  .launchh1,
+  .profileh2,
+  .profileh3,
+  .profilep,
+  .strategyh2,
+  .strategyh3,
+  .strategyp,
+  .transferh2,
+  .transferh3,
+  .transferp {
+    position: relative;
+    z-index: 2;
+  }
+  .launchh1 {
+    font-size: 32px;
+    margin-top: 60px;
+  }
+
+  .profileh2,
+  .strategyh2,
+  .transferh2 {
+    font-size: 20px;
+  }
+
+  .profileh3,
+  .strategyh3,
+  .transferh3 {
+    font-size: 14px;
+  }
+
+  .profilep,
+  .strategyp,
+  .transferp {
+    font-size: 14px;
+  }
+
+  .personh1 {
+    font-size: 28px;
+  }
+
+  .personp,
+  .markp,
+  .markp1,
+  .personpspan {
+    font-size: 14px;
+  }
+
+  .markall {
+    margin-top: 50px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  .personimg {
+    width: 100%;
+    max-width: 300px;
+    margin-left: 50px;
+  }
+
+  .all1 {
+    gap: 30px;
+  }
+
+  .allpersonmark {
+    padding: 0 20px;
+  }
+}
